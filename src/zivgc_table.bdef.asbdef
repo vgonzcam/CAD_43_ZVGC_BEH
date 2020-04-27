@@ -1,0 +1,14 @@
+managed; // implementation in class zbp_ivgc_table unique;
+
+define behavior for zivgc_TAble //alias <alias_name>
+persistent table ZVG_TABLE
+lock master
+//authorization master ( instance )
+//etag master <field_name>
+{
+  field ( mandatory ) mykey, descr;
+
+  create;
+  update;
+  delete;
+}

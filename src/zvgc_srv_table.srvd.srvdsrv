@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service For table'
+define service ZVGC_SRV_TABLE {
+  expose zcvgc_TABLE as tabla;
+}

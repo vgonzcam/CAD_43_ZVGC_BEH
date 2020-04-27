@@ -1,0 +1,11 @@
+projection;
+
+define behavior for zcvgc_TABLE //alias <alias_name>
+{
+
+  field ( mandatory ) mkey, descr;
+
+  use create;
+  use update;
+  use delete;
+}
